@@ -1,0 +1,41 @@
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    }
+
+    /*Header and footer text and background colour provided*/
+    header, footer{
+        background-color: azure;
+        color: black;
+        width: 100%;
+    }
+
+/*header layour/position on page*/
+header{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+
+/* sets the navigation menu to one line*/
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+/*adjusting the navigation menu text*/
+nav ul li{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 22px;
+    border-radius: 15px;
+}
+
+nav ul li a:hover{
+    background-color: blueviolet;
+    transition: 1s;
+}
+

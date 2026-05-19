@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hot Beans - Home Page</title>
+
+</head>
+
+<body>
+    <script src="form.js"></script>
+<header>
+    <h1>Hot beans company</h1>
+    <img src="unit 6 website\images and pictures and video\OIP.webp">
+    
+    <nav class="menu">
+ <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Profile</a></li>
+    <li><a href="#">Eligibility</a></li>
+    <li><a href="#">Courses</a></li>
+    <li><a href="#"></a></li>
+
+ </ul>
+    </nav>
+</header>
+
+<!--Middle Section-->
+<section class="content-section">
+    <b1>Application Form</b1>
+    <form class="form" action="https://formsubmit.co/20059999@student.lambeth.ac.uk" method="POST">
+        <div class="input-box">
+            <label for="fname"> First Name </label>
+            <input type="text" id="fname" name="fname" placeholder="Freddie" required maxlength="25">
+            
+        </div><br><br>
+        <div class="input-box">
+            <label for="lname"> Last Name </label>
+            <input type="text" id="lname" name="lname" placeholder="simpson" required maxlength="25">
+
+        </div><br><br>
+    
+        <div class="input-box">
+        <label for="birthday"> Birthday </label>
+        <input type="date" id="birthday" name="birthday" placeholder="dd/mm/yy" required maxlength>
+        </div><br><br>
+
+        <div class="input-box">
+            <label for="phone"> Mobile Number </label>
+            <input type="tel" id="phone" name="phone" placeholder="+44073435945433" required maxlength="15">
+        </div>
+
+        <div>
+            <h3>
+                Gender
+            </h3>
+            <div class="gender-type">
+                <div class="gender">
+                    <label>Male</label>
+                    <input type="radio" name="gender">
+                </div>
+                <div class="gender">
+                    <label>Female</label>
+                    <input type="radio" name="gender">
+            </div>
+            <div class="gender">
+                <label>Other</label>
+                <input type="radio" name="gender">
+        </div>
+        <br><br>
+        <div class="input-box">
+            <label for="position">Available Position</label>
+            <select name="position" id="position" placeholder="Choose Position" required>
+                <option value="Ui-End">Junior UI Developer</option>
+                <option value="Back-End">Junior Database Developer</option>
+                <option value="Front-End">Junior Front Developer</option>
+
+            </select> <br><br>
+        
+
+        </div>
+
+        <div class="button">
+            <input class="button1" type="submit" value="Submit">
+            <input class="button2" type="reset" value="reset">
+        </div>
+
+
+    </form>
+
+
+</section>
